@@ -1,0 +1,8 @@
+.container {
+	background-color: $container_bg_color;
+	color: $container_font_color;
+	.title {
+		background-color: $title_bg_color;
+		color: $title_font_color;
+	}
+}

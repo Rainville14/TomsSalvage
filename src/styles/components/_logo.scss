@@ -1,0 +1,5 @@
+.logo {
+	@include mq_for_phone_only {
+		text-align: center;
+	}
+}

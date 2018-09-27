@@ -1,0 +1,28 @@
+body {
+	position: relative;
+	background-color: #EEE;
+}
+main {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+.col, .col-tenth, .col-fifth, .col-quarter, .col-third, .col-half {
+	margin: 15px;
+}
+.align {
+	&--right {
+		@include mq_for_tablet_up {
+			text-align: right;
+		}
+		@include mq_for_phone_only {
+			text-align: center;
+		}
+	}
+}

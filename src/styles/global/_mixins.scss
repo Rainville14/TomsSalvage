@@ -1,0 +1,17 @@
+@mixin mq_for_phone_only () {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin mq_for_tablet_up () {
+	@media (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin mq_for_desktop_up () {
+	@media (min-width: 1024px) {
+		@content;
+	}
+}
