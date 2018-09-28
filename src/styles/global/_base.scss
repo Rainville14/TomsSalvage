@@ -9,11 +9,18 @@
 body {
 	position: relative;
 	background-color: #EEE;
+	font-size: $default_font_size;
 }
 main {
 	&.row {
 		max-width: 1080px;
-		margin: 0 auto;
+		margin: $gutter auto;
+	}
+}
+a { 
+	line-h
+	&:hover {
+		text-decoration: underline;
 	}
 }
 .hide {

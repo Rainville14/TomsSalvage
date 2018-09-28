@@ -1,17 +1,19 @@
 // Base
 $max_width: 1024px;
 $default_font_weight: 300;
+$default_font_size: 14px;
+$default_font_color: #888;
 $gutter: 15px;
 
 // Branding
 $brand_primary_font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$brand_primary_color: #B00;
+$brand_primary_color: #900;
 
 // Buttons
 $button_primary_bg_color: $brand_primary_color;
 $button_primary_color: #FFF;
-$button_link_bg_color: #CCC;
-$button_border_radius: 4px;
+$button_link_bg_color: transparent;
+$button_border_radius: 0;
 $button_padding: 10px 12px;
 $button_font_size: 14px;
 
@@ -21,11 +23,10 @@ $company_logo: url('../../images/company_logo.gif');
 // Header
 $header_bg_color: #FFF;
 $header_font_color: #888;
+$header_border: 2px solid #CCC;
 
-// Nav
-$nav_link_color: #AAA;
-$nav_link_color_hover: #FFF;
-$nav_link_font_size: 16px;
+// Footer
+$footer_border: 2px solid #DDD;
 
 // Forms
 $input_padding: 8px;
@@ -35,7 +36,7 @@ $input_bg_color: #FFF;
 
 // Containers
 $container_border: #999 solid 1px;
-$container_bg_color: #888;
-$container_font_color: #FFF;
+$container_bg_color: #DDD;
+$container_font_color: #444;
 $title_bg_color: $brand_primary_color;
 $title_font_color: #FFF;

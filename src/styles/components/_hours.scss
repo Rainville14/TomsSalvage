@@ -1,12 +1,21 @@
 #hours {
-    min-width: 280px;
-    .col-half {
+	@include mq_for_tablet_up {
+		min-width: 280px;
+		margin-right: $gutter;
+	}
+	width: 100%;
+	max-width: 420px;
+	margin: 0 auto;
+
+    .col {
         flex: 0 0 50%;
         &.align--right {
             text-align: right;
         }
     }
-    .row {
+	
+	.row {
         flex-direction: row;
-    }
+	}
+	
 }

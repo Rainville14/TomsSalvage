@@ -2,6 +2,7 @@
 	background-color: $header_bg_color;
 	color: $header_font_color;
 	vertical-align: middle;
+	border-bottom: $header_border;
 	padding: $gutter;
 
 	&--inner {

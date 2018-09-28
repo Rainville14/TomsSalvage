@@ -1,7 +1,11 @@
 .btn {
-    padding: $gutter;
+	display: inline-block;
+	width: 100%;
     &--link {
         background-color: $button_link_bg_color;
-        border-radius: $button_border_radius;
+		border-radius: $button_border_radius;
+		&:hover {
+			text-decoration: underline;
+		}
     }
 }
