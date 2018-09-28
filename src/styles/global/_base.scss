@@ -1,5 +1,10 @@
 .row {
 	margin: $gutter;
+	&.row-center {
+		.col, .col-quarter {
+			text-align: center;
+		}
+	}
 }
 body {
 	position: relative;

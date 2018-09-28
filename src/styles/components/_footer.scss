@@ -1,0 +1,13 @@
+.footer {
+	background-color: $header_bg_color;
+	color: $header_font_color;
+	vertical-align: middle;
+	padding: $gutter;
+
+	&--inner {
+		display: flex;
+		width: 100%;
+		max-width: $max_width;
+		margin: 0 auto;
+	}
+}
