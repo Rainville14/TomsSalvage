@@ -1,0 +1,12 @@
+#hours {
+    min-width: 280px;
+    .col-half {
+        flex: 0 0 50%;
+        &.align--right {
+            text-align: right;
+        }
+    }
+    .row {
+        flex-direction: row;
+    }
+}

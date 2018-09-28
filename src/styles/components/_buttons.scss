@@ -1,0 +1,7 @@
+.btn {
+    padding: $gutter;
+    &--link {
+        background-color: $button_link_bg_color;
+        border-radius: $button_border_radius;
+    }
+}
