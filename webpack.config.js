@@ -29,7 +29,8 @@ module.exports = {
 				use: {
 					loader: 'html-loader',
 					options: {
-						interpolate: true
+						interpolate: true,
+						minimize: true
 					}
 				}
 			},
@@ -47,7 +48,8 @@ module.exports = {
 					{
 						loader: 'css-loader',
 						options: {
-							sourceMap: true
+							sourceMap: true,
+							minimize: true
 						}
 					},
 					{
@@ -62,7 +64,7 @@ module.exports = {
 					{
 						loader: 'sass-loader',
 						options: {
-							sourceMap: true
+							sourceMap: process.env.NODE_ENV !== 'production'
 						}
 					}
 				]
