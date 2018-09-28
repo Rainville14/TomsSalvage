@@ -4,5 +4,7 @@
 	.title {
 		background-color: $title_bg_color;
 		color: $title_font_color;
+		padding: $gutter;
+		margin: 0;
 	}
 }

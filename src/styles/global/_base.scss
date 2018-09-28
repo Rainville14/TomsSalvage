@@ -1,10 +1,15 @@
+.row {
+	margin: $gutter;
+}
 body {
 	position: relative;
 	background-color: #EEE;
 }
 main {
-	max-width: 1080px;
-	margin: 0 auto;
+	&.row {
+		max-width: 1080px;
+		margin: 0 auto;
+	}
 }
 .hide {
 	display: none !important;
@@ -12,9 +17,6 @@ main {
 
 .show {
 	display: block !important;
-}
-.col, .col-tenth, .col-fifth, .col-quarter, .col-third, .col-half {
-	margin: 15px;
 }
 .align {
 	&--right {
