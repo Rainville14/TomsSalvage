@@ -1,5 +1,10 @@
 .row {
 	margin: $gutter;
+	@include mq_for_phone_only {
+	.col:not(:first-child) {
+		margin-top: $gutter;
+	}
+}
 	&.row-center {
 		.col, .col-quarter {
 			text-align: center;
